@@ -4,7 +4,7 @@
 #
 Name     : colorama
 Version  : 0.3.3
-Release  : 10
+Release  : 11
 URL      : https://pypi.python.org/packages/source/c/colorama/colorama-0.3.3.tar.gz
 Source0  : https://pypi.python.org/packages/source/c/colorama/colorama-0.3.3.tar.gz
 Summary  : Cross-platform colored terminal text.
