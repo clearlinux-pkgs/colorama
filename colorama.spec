@@ -4,7 +4,7 @@
 #
 Name     : colorama
 Version  : 0.3.7
-Release  : 19
+Release  : 20
 URL      : https://pypi.python.org/packages/source/c/colorama/colorama-0.3.7.tar.gz
 Source0  : https://pypi.python.org/packages/source/c/colorama/colorama-0.3.7.tar.gz
 Summary  : Cross-platform colored terminal text.
@@ -34,13 +34,16 @@ python components for the colorama package.
 %setup -q -n colorama-0.3.7
 
 %build
+export LANG=C
+export SOURCE_DATE_EPOCH=1484539390
 python2 setup.py build -b py2
 python3 setup.py build -b py3
 
 %install
+export SOURCE_DATE_EPOCH=1484539390
 rm -rf %{buildroot}
-python2 -tt setup.py build -b py2 install --root=%{buildroot}
-python3 -tt setup.py build -b py3 install --root=%{buildroot}
+python2 -tt setup.py build -b py2 install --root=%{buildroot} --force
+python3 -tt setup.py build -b py3 install --root=%{buildroot} --force
 
 %files
 %defattr(-,root,root,-)
