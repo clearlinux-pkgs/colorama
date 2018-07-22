@@ -4,9 +4,9 @@
 #
 Name     : colorama
 Version  : 0.3.9
-Release  : 46
-URL      : https://files.pythonhosted.org/packages/e6/76/257b53926889e2835355d74fec73d82662100135293e17d382e2b74d1669/colorama-0.3.9.tar.gz
-Source0  : https://files.pythonhosted.org/packages/e6/76/257b53926889e2835355d74fec73d82662100135293e17d382e2b74d1669/colorama-0.3.9.tar.gz
+Release  : 47
+URL      : https://pypi.debian.net/colorama/colorama-0.3.9.tar.gz
+Source0  : https://pypi.debian.net/colorama/colorama-0.3.9.tar.gz
 Summary  : Cross-platform colored terminal text.
 Group    : Development/Tools
 License  : BSD-3-Clause
@@ -70,12 +70,12 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1532241972
+export SOURCE_DATE_EPOCH=1532292733
 python2 setup.py build -b py2
 python3 setup.py build -b py3
 
 %install
-export SOURCE_DATE_EPOCH=1532241972
+export SOURCE_DATE_EPOCH=1532292733
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/doc/colorama
 cp LICENSE.txt %{buildroot}/usr/share/doc/colorama/LICENSE.txt
