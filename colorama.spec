@@ -4,7 +4,7 @@
 #
 Name     : colorama
 Version  : 0.3.9
-Release  : 52
+Release  : 53
 URL      : https://pypi.debian.net/colorama/colorama-0.3.9.tar.gz
 Source0  : https://pypi.debian.net/colorama/colorama-0.3.9.tar.gz
 Summary  : Cross-platform colored terminal text.
