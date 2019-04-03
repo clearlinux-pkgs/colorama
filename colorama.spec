@@ -4,7 +4,7 @@
 #
 Name     : colorama
 Version  : 0.3.9
-Release  : 54
+Release  : 55
 URL      : https://pypi.debian.net/colorama/colorama-0.3.9.tar.gz
 Source0  : https://pypi.debian.net/colorama/colorama-0.3.9.tar.gz
 Summary  : Cross-platform colored terminal text.
@@ -54,7 +54,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1554306656
+export SOURCE_DATE_EPOCH=1554308986
 export MAKEFLAGS=%{?_smp_mflags}
 python3 setup.py build
 
