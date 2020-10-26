@@ -1,13 +1,10 @@
 # This file contains recursive sources that require this package
 Sphinx
 awscli
-azure-cli
 azure-cli-core
-bandit
 ceph
 click
 cmd2
-gabbi
 knack
 pylint
 pytest
