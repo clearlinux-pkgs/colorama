@@ -4,7 +4,7 @@
 #
 Name     : colorama
 Version  : 0.4.4
-Release  : 74
+Release  : 75
 URL      : https://files.pythonhosted.org/packages/1f/bb/5d3246097ab77fa083a61bd8d3d527b7ae063c7d8e8671b1cf8c4ec10cbe/colorama-0.4.4.tar.gz
 Source0  : https://files.pythonhosted.org/packages/1f/bb/5d3246097ab77fa083a61bd8d3d527b7ae063c7d8e8671b1cf8c4ec10cbe/colorama-0.4.4.tar.gz
 Summary  : Cross-platform colored terminal text.
