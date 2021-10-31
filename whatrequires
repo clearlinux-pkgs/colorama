@@ -1,12 +1,13 @@
 # This file contains recursive sources that require this package
 Sphinx
+ansible
 awscli
-azure-cli-core
+black
 ceph
-click
 cmd2
 knack
 pylint
 pytest
 python-zstandard
+tqdm
 twine
